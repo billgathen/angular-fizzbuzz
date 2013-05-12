@@ -41,9 +41,12 @@
         <p>
           Use the controls below to see the results for different numbers, in a variety of formats.
         </p>
-        <label for="lastNum">Fizzbuzz up to:</label>
+        <label for="lastNum">Fizzbuzz 1-100:</label>
+        <div data-ng-init="lastNum=15"></div>
         <input type="number" name="lastNum" data-ng-model="lastNum" />
-        (1-100)
+        <a href="#/text">Text</a>
+        <a href="#/json">JSON</a>
+        <a href="#/html">HTML</a>
       </div>
       <div ng-view></div>
     </div>
